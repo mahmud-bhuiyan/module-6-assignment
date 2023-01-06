@@ -177,3 +177,82 @@ img {
   height: 182px;
   margin: 70px 0 0 80px;
 }
+
+/* footer section styles */
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  color: #ffffff;
+  padding-top: 130px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.footer-info {
+  width: 450px;
+  height: 300px;
+}
+
+.footer-info .title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.footer-info .description {
+  margin-bottom: 20px;
+}
+
+.footer-info p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.contact-info > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons img {
+  margin: 20px 20px 0 0;
+  width: 35px;
+  height: 35px;
+}
+
+.subscribe {
+  width: 300px;
+}
+.subscribe .title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.subscribe input[type="email"] {
+  border: 0;
+  width: 100%;
+  border-radius: 5px;
+  padding: 18px 30px;
+}
+
+.subscribe .primary-btn {
+  background: #005fac;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 15px;
+}
