@@ -18,35 +18,41 @@ section {
 
 /* header banner styles */
 .banner {
-  position: relative;
-}
-
-.banner-image {
+  display: flex;
+  background-image: url("../images/banner/banner6.png");
+  background-repeat: no-repeat;
+  height: 808px;
   width: 100%;
+}
+.banner-container {
+  margin-left: auto;
+  margin-right: 0;
+  padding: 220px 170px 0 0;
 }
 
 .banner-info {
-  position: absolute;
-  top: 27%;
-  left: 56%;
-  width: 475px;
-  height: 228px;
   text-align: right;
-  color: #ffffff;
+  width: 400px;
 }
 
 .banner-title {
   font-weight: 700;
-  font-size: 55px;
+  font-size: 45px;
   line-height: 70px;
   margin-bottom: 25px;
+  color: #ffffff;
 }
 
 .banner-description {
+  margin-left: auto;
+  margin-right: 0;
+  padding: 20px 0;
+  width: 380px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 26px;
   margin-bottom: 25px;
+  color: #ffffff;
 }
 
 /* main section styles */
