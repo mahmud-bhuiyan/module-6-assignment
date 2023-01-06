@@ -28,7 +28,7 @@
   width: 475px;
   height: 228px;
   text-align: right;
-  color: white;
+  color: #ffffff;
 }
 
 .banner-title {
@@ -43,5 +43,44 @@
   font-size: 14px;
   line-height: 26px;
   margin-bottom: 25px;
+}
+
+/* previous year section styles */
+.image-section > img {
+  position: absolute;
+  width: 430px;
+  height: 540px;
+  left: 300px;
+  top: 800px;
+}
+
+.previous-year-info {
+  position: absolute;
+  width: 310px;
+  height: 400px;
+  left: 842px;
+  top: 950px;
+}
+
+.previous-year-info .title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 45px;
+  margin-bottom: 25px;
+}
+
+.previous-year-info .description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 15px;
+}
+
+.previous-year-info li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #444343;
 }
 
