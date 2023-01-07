@@ -28,19 +28,19 @@ section {
 .banner-container {
   margin-left: auto;
   margin-right: 0;
-  padding: 195px 190px 0 0;
+  padding: 150px 190px 0 0;
 }
 
 .banner-info {
   text-align: right;
-  width: 400px;
+  width: 455px;
 }
 
 .banner-title {
   font-weight: 700;
   font-size: 45px;
   line-height: 70px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #ffffff;
 }
 
@@ -52,7 +52,7 @@ section {
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: #ffffff;
 }
 
@@ -69,7 +69,7 @@ main {
 /* previous year section styles */
 .previous-year-section {
   display: flex;
-  margin: 150px 0 0 130px;
+  margin: 150px 0 0 160px;
 }
 
 .image-section > img {
