@@ -16,6 +16,13 @@ section {
   font-size: 15px;
 }
 
+.hr-gradient{
+  height: 8px;
+  background-image: linear-gradient(90deg, #005fac, rgba(0, 95, 172, 0) 100%);
+  border: 0;
+  height: 2px;
+}
+
 /* header banner styles */
 .banner {
   display: flex;
@@ -87,8 +94,12 @@ main {
   font-weight: 700;
   font-size: 35px;
   line-height: 45px;
-  margin-bottom: 25px;
   color: #151414;
+}
+
+.previous-year-info hr{
+  width: 270px;
+  margin: 20px 0 25px;
 }
 
 .previous-year-info .description {
@@ -121,7 +132,11 @@ main {
   font-size: 35px;
   line-height: 47px;
   color: #151414;
-  margin-bottom: 50px;
+}
+
+.plans-section hr{
+  width: 200px;
+  margin: 15px auto 65px;
 }
 
 .plans-container {
@@ -132,7 +147,12 @@ main {
 .plans-info {
   display: flex;
   justify-content: space-between;
-  width: 950px;
+  width: 1000px;
+}
+
+.plan {
+  width: 280px;
+  margin: 0 0 0 30px;
 }
 
 .plan > img {
@@ -169,7 +189,11 @@ img {
   font-size: 35px;
   line-height: 47px;
   color: #151414;
-  margin-bottom: 40px;
+}
+
+.weekly hr{
+  width: 300px;
+  margin: 15px auto 65px;
 }
 
 .weekly-container {
@@ -196,6 +220,7 @@ img {
   margin-top: 20px;
   color: #151414;
 }
+
 /* gradient banner section styles */
 .gradient {
   display: flex;
@@ -242,7 +267,7 @@ img {
   background-color: #000000;
   color: #ffffff;
   padding-top: 120px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .footer-container {
@@ -260,8 +285,13 @@ img {
   font-weight: 700;
   font-size: 35px;
   line-height: 26px;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
+
+.footer-info hr{
+  margin: 15px auto;
+}
+
 .footer-info .description {
   margin-bottom: 20px;
 }
@@ -276,6 +306,10 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
+}
+
+.contact-info > p i {
+  padding-right: 5px;
 }
 
 .social-icons {
